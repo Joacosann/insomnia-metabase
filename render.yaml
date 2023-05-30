@@ -3,7 +3,7 @@ services:
     name: metabase
     env: docker
     repo: https://github.com/render-examples/metabase.git # opcional
-    plan: starter # cambia el plan a starter (1GB de RAM)
+    plan: free # cambia el plan a free (512MB de RAM)
     autoDeploy: false
     envVars:
       - key: MB_DB_CONNECTION_URI
