@@ -11,4 +11,4 @@ services:
 databases:
   - name: elephant
     databaseName: insomniadb_73w9
-    ipAllowList: [] # solo permite conexiones internas
+    # ipAllowList: [] # solo permite conexiones internas
